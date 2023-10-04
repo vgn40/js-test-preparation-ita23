@@ -14,31 +14,31 @@ function add(a, b) {
 }
 
 /**
- * This function returns the type of the provided variable.
+ * This function returns the length of the provided string.
  *
- * @param {*} value - A variable whose type needs to be determined.
- * @returns {string} - The type of the variable.
+ * @param {string} value - A string whose length needs to be determined.
+ * @returns {number} - The length of the string.
  *
  * Usage:
- * const result = determineType("Hello"); // result will be "string"
- * const anotherResult = determineType(42); // anotherResult will be "number"
+ * const result = determineLength("Hello"); // result will be 5
+ * const anotherResult = determineLength("AB"); // anotherResult will be 2
  */
-function determineType(value) {
+function determineLength(value) {
 
 }
 
 /**
- * This function concatenates two strings with a space in between.
+ * This function concatenates two strings with a specified delimiter.
  *
  * @param {string} a - The first string.
  * @param {string} b - The second string.
+ * @param {string} delimiter - The delimiter to be placed between the two strings.
  * @returns {string} - The concatenated string.
  *
  * Usage:
- * const result = concatenateStrings("Hello", "World"); // result will be "Hello World"
+ * const result = concatenateWithDelimiter("Hello", "World", ", "); // result will be "Hello, World"
  */
-
-function concatenateStringsWithSpace(a, b) {
+function concatenateWithDelimiter(a, b, delimiter) {
 
 }
 

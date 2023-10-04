@@ -1,35 +1,34 @@
 /**
- * This function checks if a number is even.
+ * This function returns the next even number after the given number.
  *
- * @param {number} n - The number to be checked.
- * @returns {boolean} - True if the number is even, otherwise false.
+ * @param {number} n - The number.
+ * @returns {number} - The next even number after the given number.
  *
  * Usage:
- * const result = isEven(4); // result will be true
- * const anotherResult = isEven(7); // anotherResult will be false
+ * const nextEven = getNextEven(3); // nextEven will be 4
+ * const anotherNextEven = getNextEven(8); // anotherNextEven will be 10
  */
 
-function isEven(number) {
-
+function getNextEven(n) {
+    // Implementation here
 }
+
 
 /**
- * This function checks if a number is within a range.
+ * This function checks if a number is a multiple of another number.
  *
  * @param {number} n - The number to check.
- * @param {number} min - The minimum range.
- * @param {number} max - The maximum range.
- * @returns {boolean} - True if the number is within range, false otherwise.
+ * @param {number} m - The number to check divisibility against.
+ * @returns {boolean} - True if n is a multiple of m, false otherwise.
  *
  * Usage:
- * const inRange = isWithinRange(5, 1, 10); // inRange will be true
- * const outOfRange = isWithinRange(15, 1, 10); // outOfRange will be false
+ * const isMultiple = isMultipleOf(10, 2); // isMultiple will be true because 2 can be divided with 10
+ * const notMultiple = isMultipleOf(10, 3); // notMultiple will be false
  */
 
-function isWithinRange(n, min, max) {
+function isMultipleOf(n, m) {
 
 }
-
 
 
 /**

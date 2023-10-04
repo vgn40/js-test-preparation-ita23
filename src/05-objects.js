@@ -1,73 +1,45 @@
 /**
- * This function returns an object that has the properties: 'name', 'age', and 'city'.
+ * This function returns a simple object representing a book.
  *
- * @returns {Object} - An object with properties 'name', 'age', and 'city'.
+ * @returns {object} - An object with properties: title, author, and year.
  *
  * Usage:
- * const person = createPersonObject();
- * // person might be { name: 'John Doe', age: 30, city: 'New York' }
+ * const myBook = createBook();
+ * console.log(myBook.title); // Outputs the title of the book
  */
-function createPersonObject() {
+function createBook() {
 
 }
 
 
 /**
- * This function returns the name of the given person object.
+ * This function finds a book by its author from a given array of books.
  *
- * @param {Object} person - The person object.
- * @returns {string} - The name of the person.
+ * @param {array} books - An array of book objects.
+ * @param {string} author - The author name to search for.
+ * @returns {object|null} - The book object if found, otherwise null.
  *
  * Usage:
- * const personName = getPersonName({ name: 'John Doe', age: 30, city: 'New York' });
- * // personName will be 'John Doe'
+ * const result = findBookByAuthor([{title: "Sample", author: "John Doe", year: 2020}, {title: "Here I am", author: "Peter Hansen", year: 1987}], "John Doe");
+ * console.log(result); // Outputs {title: "Sample", author: "John Doe", year: 2020}
  */
-function getPersonName(person) {
+function findBookByAuthor(books, author) {
 
 }
 
 
 /**
- * This function finds a person from an array of persons based on their name.
+ * This function lists all book titles published before a given year.
  *
- * @param {Object[]} persons - Array of person objects.
- * @param {string} name - Name of the person to be found.
- * @returns {Object} - The person object with the given name, or null if not found.
+ * @param {array} books - An array of book objects.
+ * @param {number} year - The cutoff year.
+ * @returns {array} - An array of book objects.
  *
  * Usage:
- * const john = findPersonByName([{ name: 'John Doe', age: 30 }, { name: 'Jane Doe', age: 25 }], 'John Doe');
- * // john will be { name: 'John Doe', age: 30 }
+ * const oldBooks = getOlderBooks([{title: "A", year: 1990}, {title: "B", year: 2022}], 2000);
+ * console.log(oldBooks); // Outputs {title: "A", year: 1990}
  */
-function findPersonByName(persons, name) {
+function getOlderBooks(books, year) {
 
 }
 
-
-/**
- * This function adds a property 'country' to the person object.
- *
- * @param {Object} person - The person object.
- * @param {string} country - The country where the person resides.
- * @returns {Object} - The updated person object with a 'country' property.
- *
- * Usage:
- * const updatedPerson = addCountryToPerson({ name: 'John Doe', age: 30, city: 'New York' }, 'USA');
- * // updatedPerson will be { name: 'John Doe', age: 30, city: 'New York', country: 'USA' }
- */
-function addCountryToPerson(person, country) {
-
-}
-
-/**
- * This function calculates the total age of all persons in an array.
- *
- * @param {Object[]} persons - Array of person objects.
- * @returns {number} - The total age of all persons.
- *
- * Usage:
- * const totalAge = getTotalAge([{ name: 'John Doe', age: 30 }, { name: 'Jane Doe', age: 25 }]);
- * // totalAge will be 55
- */
-function getTotalAge(persons) {
-
-}

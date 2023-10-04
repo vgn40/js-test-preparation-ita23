@@ -10,25 +10,24 @@
 
 
 /**
- * This function calculates the area of a rectangle.
+ * This function converts a string to spinal case.
  *
- * @param {number} length - Length of the rectangle.
- * @param {number} breadth - Breadth of the rectangle.
- * @returns {number} - Area of the rectangle.
+ * @param {string} str - The string to be converted.
+ * @returns {string} - The spinal cased string.
  *
  * Usage:
- * const area = rectangleArea(4, 5); // area will be 20
+ * const spinal = toSpinalCase("This Is Spinal Tap"); // spinal will be "this-is-spinal-tap"
  */
 
 
 /**
- * This function checks if a string is a palindrome.
+ * This function calculates the time taken by light to travel a certain distance.
  *
- * @param {string} str - The string to check.
- * @returns {boolean} - True if the string is a palindrome, otherwise false.
+ * @param {number} distance - The distance in kilometers.
+ * @returns {number} - Time taken in seconds.
  *
  * Usage:
- * const isPalindromeStr = isPalindrome("radar"); // isPalindromeStr will be true
+ * const time = lightTravelTime(300000); // time will be 1
  */
 
 
