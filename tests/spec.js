@@ -3,6 +3,7 @@ testLoopsConditionals();
 testArray();
 testFunction();
 testObjects();
+testAllLearningGoals();
 
 // disabling randomized tests
 jasmine.getEnv().configure({

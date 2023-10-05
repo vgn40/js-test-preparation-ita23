@@ -1,13 +1,30 @@
 /**
- * This function returns an array of even numbers from 2 to 20.
+ * This function returns the last element in an array
  *
- * @returns {Array<number>} - An array containing even numbers from 2 to 20.
+ * @param {Array<number>} array - The array to find the last number of
+ * @returns {number} - The last number in the array
  *
  * Usage:
- * const numbers = returnEvenNumbers();
+ * const lastElement = getLastElement([2, 4, 6, 8, 10, 12, 14, 16, 18, 20]);
+ * console.log(lastElement); // 20
+ */
+function getLastElement(array) {
+
+}
+
+
+/**
+ * This function returns an array of even numbers from the specified start to finish.
+ *
+ * @param {number} start - The starting number of the range (inclusive).
+ * @param {number} finish - The ending number of the range (inclusive).
+ * @returns {Array<number>} - An array containing even numbers from start to finish.
+ *
+ * Usage:
+ * const numbers = returnEvenNumbers(2, 20);
  * // numbers will be [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
  */
-function returnEvenNumbers() {
+function returnEvenNumbers(start, finish) {
 
 }
 

@@ -10,7 +10,7 @@
  */
 
 function getNextEven(n) {
-    // Implementation here
+
 }
 
 

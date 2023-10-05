@@ -10,7 +10,7 @@
  * const anotherResult = add(-1, 1); // anotherResult will be 0
  */
 function add(a, b) {
-    
+
 }
 
 /**

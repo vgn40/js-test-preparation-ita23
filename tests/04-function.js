@@ -2,14 +2,20 @@ function testFunction() {
     describe('04-function - greetUser', () => {
         it("should greet a user by their name", () => {
             const result = greetUser("Jack");
-            expect(result).toBe("Hello, Jack!");
+            expect(result).toBe("Hello, Jack");
         });
     });
 
     describe('04-function - toSpinalCase', () => {
         it("should convert a string to spinal case", () => {
             const result = toSpinalCase("This Is Spinal Tap");
-            expect(result).toBe("this-is-spinal-tap");
+            expect(result).toBe("This-Is-Spinal-Tap");
+        });
+
+        it("should convert a string to spinal case", () => {
+            const result = toSpinalCase("hello how are you");
+            console.log(result)
+            expect(result).toBe("hello-how-are-you");
         });
 
         it("should return an empty string for an empty input", () => {

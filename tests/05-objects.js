@@ -19,15 +19,6 @@ function testObjects() {
             const result = findBookByAuthor(books, "John Doe");
             expect(result).toEqual({title: "Sample", author: "John Doe", year: 2020});
         });
-
-        it("should return null if the book by the author is not found", function() {
-            const books = [
-                {title: "Sample", author: "John Doe", year: 2020},
-                {title: "Here I am", author: "Peter Hansen", year: 1987}
-            ];
-            const result = findBookByAuthor(books, "Jane Smith");
-            expect(result).toBeNull();
-        });
     });
 
     describe('05-objects - getOlderBooks', () => {

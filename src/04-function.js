@@ -5,8 +5,9 @@
  * @returns {string} - Greeting message for the user.
  *
  * Usage:
- * const greetJack = greetUser("Jack"); // greetJack will be "Hello, Jack!"
+ * const greetJack = greetUser("Jack"); // greetJack will be "Hello, Jack"
  */
+
 
 
 /**
