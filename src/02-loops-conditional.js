@@ -10,7 +10,10 @@
  */
 
 function getNextEven(n) {
-
+    if (n % 2 === 0){
+        return n + 2}
+    else if (n % 2 !== 0){
+    return n + 1}
 }
 
 
@@ -27,7 +30,11 @@ function getNextEven(n) {
  */
 
 function isMultipleOf(n, m) {
+if (n % m === 0){
+    return true;  }
 
+else if (n % m !== 0){
+        return false; }
 }
 
 
@@ -43,5 +50,10 @@ function isMultipleOf(n, m) {
  */
 
 function reverseString(str) {
+    let myString = "";
+ for (let i = str.length -1;i >= 0;i--){
+    myString += str[i];
 
+ }
+    return myString;
 }

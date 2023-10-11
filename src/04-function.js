@@ -9,6 +9,13 @@
  */
 
 
+function greetUser (name) {
+    console.log(`hello, ${name}`)
+}
+greetUser("jack")
+
+
+
 
 /**
  * This function converts a string to spinal case.
