@@ -40,7 +40,7 @@ function determineLength(value) {
  * @returns {string} - The concatenated string.
  *
  * Usage:
- * const result = concatenateWithDelimiter("Hello", "World", ", "); // result will be "Hello, World"
+ * const result = concatenateWithDelimitewr("Hello", "World", ", "); // result will be "Hello, World"
  */
 
 

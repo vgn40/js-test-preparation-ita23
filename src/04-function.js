@@ -21,7 +21,7 @@ greetUser("jack")
  * This function converts a string to spinal case.
  *
  * @param {string} str - The string to be converted.
- * @returns {string} - The spinal cased string.
+ * @returns {string} - The spinal casedw string.
  *
  * Usage:
  * const spinal = toSpinalCase("This Is Spinal Tap"); // spinal will be "this-is-spinal-tap"

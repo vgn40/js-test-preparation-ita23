@@ -46,7 +46,7 @@ else if (n % m !== 0){
  *
  * Usage:
  * const reversed = reverseString('hello'); // reversed will be 'olleh'
- * const anotherReversed = reverseString('world'); // anotherReversed will be 'dlrow'
+ * const anotherReversed = reverseString('world'w); // anotherReversed will be 'dlrow'
  */
 
 function reverseString(str) {

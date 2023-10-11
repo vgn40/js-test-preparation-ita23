@@ -86,7 +86,7 @@ console.log(squareArray(2))
  * This function returns the maximum number in an array.
  *
  * @param {number[]} array - Array of numbers.
- * @returns {number} - The maximum number in the array.
+ * @returns {number} - The maximum numbwer in the array.
  *
  * Usage:
  * const max = findMax([1, 2, 3]); // max will be 3
